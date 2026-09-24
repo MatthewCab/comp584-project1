@@ -58,6 +58,10 @@
 			}
 
 			/* Responsive styles */
+			@media screen and (max-width: 600px){
+				.mobile { width: 100% !important;}
+				.block { display: block !important; width: 100% !important;}
+			}
 	
 		</style>
 	</head>
@@ -67,7 +71,7 @@
 		<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" role="presentation">
 			<tr>
 				<td align="center">
-					<table border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width: 100%; max-width: 600px; margin: 0 auto;" role="presentation">
+					<table class="mobile" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width: 100%; max-width: 600px; margin: 0 auto;" role="presentation">
 						<!-- Logo -->
 						<!-- a basic image of a pepsi logo -->
 						 <tr>
@@ -99,15 +103,52 @@
 			 					alt="Pepsi Cans with different flavors"/>
 							</td>
 						 </tr>
+
+						<!-- two column -->
+						<!-- talking about a new store location and fake employee of the month -->
+						 <tr>
+							<td>
+								<table class="block" border = "0" cellpadding= "0" cellspacing="0" role="presentation" width="100%">
+									<tr>
+										<td bgcolor="#CE0034" style="color: rgb(252, 249, 249);">
+											<!-- left column -->
+											<!-- talking about the new store location -->
+											 <table align="left" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation" width="48%">
+												<tr>
+													<td style="padding: 20px; line-height: 24px;">
+														<h2 style="font-size: 23px; text-align: left; margin: 0 0 20px 0;">Pepsi Pop-Up Shop</h2>
+														<p style="font-size: 18px; text-align: left; margin: 15px 0 5px 0;"> &emsp;We are proud to annouce that the Pepsi pop up in Northridge has so far been a success! The pop up has been live for a 
+															month and has been having great foot traffic. Our new flavors are also currently availabe at the pop up.<br> The pop up will continue to last til October 31st.<br><br>
+														</p>
+													</td>
+												</tr>
+											 </table>
+											<!-- right column -->
+											<!-- talking about the new store location -->
+											 <table class="block" align="right" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation" width="48%">
+												<tr>
+													<td style="padding: 20px; line-height: 24px;">
+														<h2 style="font-size: 23px; text-align: left; margin: 0 0 20px 0;">Pop up staff</h2>
+														<p style="font-size: 18px; text-align: left; margin: 15px 0 5px 0;"> &emsp;We just want to take a moment to thank our team who have been holding down the fort at the event. We want to give
+															thanks to our sales team: Janet, Kyle, Blake, and Ross. We also want to thank the events manaager, Christine, who takes time out of her day to make sure the event is up and running in one piece.
+														</p>
+													</td>
+												</tr>
+											 </table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						 </tr>
 						
 						<!-- text -->
 						<!-- explaining all 3 new made up pepsi flavors and fake sale -->
 						 <tr>
 							<td bgcolor="#D3D3D3" style="color: rgb(0, 0, 0); padding: 20px; text-align: center;" align="center">
 								<!-- inside style can also use margin: 0 0 40px 0; so i dont have to use <br><br>, they aren't exactly the same spacing though -->
-								<p style="font-size: 18px; text-align: left; margin: 25px 0 35px 0;"> &emsp;We at Pepsi are introducing 3 new BOLD flavors. We're introducing BANANA, GREEN APPLE, and KIWI! Our new banana flavor
+								<p style="font-size: 18px; text-align: left; margin: 20px 0 35px 0;"> &emsp;We at Pepsi are introducing 3 new BOLD flavors. We're introducing BANANA, GREEN APPLE, and KIWI! Our new banana flavor
 									will come in an all new yellow can decorated with images bananas and banana trees, along side our iconic pepsi logo. After months of creating and testing we have contained the taste 
-									of a banana into a can of Pepsi. This bold new flavor is available now online and wherever Pepsi products are sold. The banana flavor is available in packs of 4, 6, 12, 24, and 
+									of a banana into a can of Pepsi. This bold new flavor is available now online and wherever Pepsi products are sold. The banana flavor is available in packs of 6, 12, 24, and 
 									can also be purchased individually.
 								</p>
 								<p style="font-size: 18px; text-align: left; margin: 0 0 35px 0;"> &emsp;Our new green apple flavor will come in an all new green can decorated with images of green apples and slices of green apples, along side our iconic pepsi logo. After months of 
@@ -117,11 +158,58 @@
 								<!-- Separated all text into different rows to put an image next to kiwi paragraph but adding the image was messing with the size of the tables -->
 								<p style="font-size: 18px; text-align: left; margin: 0 0 35px 0;"> &emsp;Our new kiwi flavor will come in an all new green and dark tannish brown can. This time decorated with images of kiwis whole and cut in half, along side our iconic pepsi logo. 
 									After months of creating and testing we have FINALLY perfected the taste of kiwis into 12oz pepsi cans. This bold new flavor is available now online and wherever Pepsi products are sold. 
-									This new kiwi flavor is available in packs of 4,6, 12, 24, and can also be purchased individually.
+									This new kiwi flavor is available in packs of 6, 12, 24, and can also be purchased individually.
 								</p>
 								<p style="font-size: 18px; text-align: left;"> &emsp;Following the release of all 3 of our brand new flavors, all Pepsi products in partnered stores are currently 10% off. While all 3 new flavors are 15% off in celebration of these new releases.
 									So with the links below make sure to find where Pepsi products are sold near you and to view current available Pepsi flavors. 
 								</p>
+							</td>
+						 </tr>
+
+						<!-- three column -->
+						<!-- talking about pepsi packs available -->
+						 <tr>
+							<td>
+								<table border = "0" cellpadding= "0" cellspacing="0" role="presentation" width="100%">
+									<tr>
+										<td bgcolor="#CE0034" style="color: rgb(252, 249, 249);">
+											<!-- 1st column -->
+											<!-- image of a pack of pepsi-->
+											 <table class="block" align="left" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation" width="33%">
+												<tr>
+													<td style="padding: 20px; line-height: 24px;">
+														<img width="100%" style="display: block; margin: 0 auto;" 
+														src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxNxvpXWFv2bDMz9M38y8rRVFWQYwiN67sZrM0LiQrtFy4hizZWGT6M_g&s=10"
+														alt="Pepsi packs"/>
+													</td>
+												</tr>
+											 </table>
+											<!-- 2nd column -->
+											<!-- talking about pack sizes available-->
+											 <table class="block" align="left" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation" width="33%">
+												<tr>
+													<td style="padding: 20px; line-height: 24px;">
+														<h2 style="font-size: 23px; text-align: left; margin: 0 0 20px 0;">Packs Available:</h2>
+														<p style="font-size: 18px; text-align: left; margin: 15px 0 5px 0;"> Pepsi's comes in packs of 6, 12, 15, 18, 24, and 36. For a limited time 24 packs are currently $9.99 where Pepsi products
+															are sold
+														</p>
+													</td>
+												</tr>
+											 </table>
+											<!-- 3rd column -->
+											<!-- image of pepsi packs for $9.99 -->
+											 <table class="block" align="left" border="0" cellpadding="0" cellspacing="0" class="block" role="presentation" width="33%">
+												<tr>
+													<td style="padding: 20px; line-height: 24px;">
+														<img width="100%" style="display: block; margin: 0 auto;" 
+														src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMkxxMPRLz7s7jtUF6yWUeV1Jy4AySZgCN6CC6qQh3rJNLJjll3GIyzKse&s=10"
+														alt="Pepsi packs"/>
+													</td>
+												</tr>
+											 </table>
+										</td>
+									</tr>
+								</table>
 							</td>
 						 </tr>
 
@@ -133,12 +221,12 @@
 							<td background="https://img.magnific.com/free-vector/water-droplets-dark-blue-glossy-surface_107791-31252.jpg?semt=ais_hybrid&w=740&q=80" 
 								bgcolor="#0471ff" style="color: aliceblue; padding: 20px; text-align: center; 
 								background: #0471ff url(https://img.magnific.com/free-vector/water-droplets-dark-blue-glossy-surface_107791-31252.jpg?semt=ais_hybrid&w=740&q=80);" align="center">
-								<a href="#"
+								<a href="https://www.pepsi.com/where-to-buy"
 								   style="font-size: 22px; font-family: 'Times New Roman', Times, serif; font-weight: bold; color: #ffffff; text-decoration: none; border-radius: 3px; 
 								   background-color: #e41515; border-top: 12px solid #e41515; border-bottom: 12px solid #e41515; border-right: 12px solid #e41515; border-left: 12px solid #e41515; 
 								   display: inline-block;"> Click here to find where Pepsi products are sold </a>
 								<p style="margin: 25px 0 25px 0;"></p>
-								<a href="#"
+								<a href="https://www.pepsi.com/products"
 								   style="font-size: 22px; font-family: 'Times New Roman', Times, serif; font-weight: bold; color: #ffffff; text-decoration: none; border-radius: 3px; 
 								   background-color: #e41515; border-top: 12px solid #e41515; border-bottom: 12px solid #e41515; border-right: 12px solid #e41515; border-left: 12px solid #e41515; 
 								   display: inline-block;"> Click here to view all current Pepsi flavors </a>
@@ -152,10 +240,10 @@
 							<td bgcolor="#D3D3D3" style="color: rgb(0, 0, 0); padding: 20px; text-align: center;" align="center">
 								<footer>
 									<p style="font-style:oblique;">For any questions regarding products or orders please contact us at 
-										<a style="font-style: oblique;" href="#"> contact.PepsiCo@gmail.com </a>
+										<a style="font-style: oblique;" href="https://contact.pepsico.com/pepsi/contact-us"> contact.PepsiCo@gmail.com </a>
 									</p>
 									<p style="font-style:oblique;">If you wish to no longer receive emails from us and wish to 
-										<a style="font-style: oblique;" href="#"> unsubscribe click here </a>
+										<a style="font-style: oblique;" href="https://matthewcab.github.io/comp584-project1/"> unsubscribe click here </a>
 									</p>
 									<p style="font-style: oblique;"><br>700 Anderson Hill Rd, Purchase, NY 10577<br>@ 2026 Pepsi Co.</p>
 								</footer>
